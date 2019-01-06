@@ -1,0 +1,23 @@
+#### get
+GET http://localhost:8080/test/get
+Content-Type: application/json
+
+{
+  "region": "test",
+  "key": "aaa"
+}
+
+#### set
+POST http://localhost:8080/test/set
+Content-Type: application/json
+
+{
+  "region": "test",
+  "key": "aaa",
+  "object": {
+    "name": "nihao",
+    "age": 12
+  }
+}
+
+###
